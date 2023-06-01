@@ -1,0 +1,157 @@
+body{
+    font-family: 'Century Gothic', 'Segoe UI', Tahoma, Geneva;
+    text-align: justify;
+    background-image: linear-gradient(to bottom, rgb(134,252,0), rgba(232, 159, 0, 0.637), rgb(40,165,248));
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+nav{
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 0, 0.194);
+   
+}
+
+.banner{
+    overflow: hidden;
+    height: 480px;
+    position: relative;
+    background-color: deepskyblue;
+    z-index: -1;
+}
+
+small{
+    color: ghostwhite;
+    z-index: 1;
+    left: 16px;
+    bottom: 16px;
+    position:absolute;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    opacity: 70%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+    text-decoration: underline;
+}
+
+article {
+    width: 33.33%;
+    padding: 16px;
+    display: table-cell;
+}
+
+.identitas {
+    color: tomato;
+    font-size: 16px;
+}
+
+form{
+    text-align: center;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+#course {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+#about h2{
+    padding-top: 40px;
+}
+
+input[type=submit]{
+    background-color: #00ff04;
+    border: none;
+    color: black;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(0, 235, 252);
+}
+#contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: royalblue;
+    color: azure;
+    height: 120px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+a{
+    color: orange;
+    font-weight: bold;
+}
+
+a:hover{
+    background-image: linear-gradient(to bottom, rgb(134,252,0), rgb(40,165,248));
+}
+
+#skill h3{
+    text-align: center;
+    color:darkviolet;
+    text-decoration: underline;
+}
+
+#service h3{
+    text-align: center;
+}
