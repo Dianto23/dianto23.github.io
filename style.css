@@ -17,7 +17,7 @@ li{
 nav{
     text-align: center;
     position: fixed;
-    top: 2%;
+    top: 0%;
     width: 100%;
     background-color: rgba(172, 172, 172, 0.8);
     backdrop-filter: blur(20px);
@@ -52,17 +52,18 @@ ul{
 }
 
 small{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     z-index: 1;
-    left: 32px;
+    left: 16px;
     bottom: 32px;
     position:absolute;
+    font-size: 20px;
 }
 
 h1{
     color: white;
-    /*background-color: black;
-    opacity: 70%;*/
+    background-color: black;
+    opacity: 70%;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
@@ -71,6 +72,20 @@ h1{
     position: absolute;
     bottom: 60px;
 }
+
+.elips{
+    color: white;
+    background-color: black;
+    opacity: 70%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 40px;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+}
+
 
 h2{
     text-align: center;
@@ -88,6 +103,7 @@ article {
     color: tomato;
     font-size: 16px;
 }
+
 
 form{
     text-align: center;
@@ -111,7 +127,11 @@ span {
 #about p{
     padding-right: 40px;
     padding-left: 40px;
+    padding-right: 60px;
+    line-height: 16px;
+    text-align: justify;
 }
+
 #about h2{
     padding-top: 40px;
 }
@@ -168,7 +188,7 @@ a{
     text-decoration: underline;
 }
 
-#service h3{
+#services h3{
     text-align: center;
 }
  
@@ -180,6 +200,5 @@ img {
     overflow: hidden;
     border: 2px solid white;
     display: block;
-    margin-left: auto;
     margin-right: auto;
 }
