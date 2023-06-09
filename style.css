@@ -2,7 +2,7 @@ body{
     font-family: 'Century Gothic', 'Segoe UI', Tahoma, Geneva;
     text-align: justify;
     /*background-image: linear-gradient(to bottom, rgb(134,252,0), rgba(232, 159, 0, 0.637), rgb(40,165,248));*/
-    background-image: linear-gradient(to bottom, rgb(0, 80, 252), rgba(0, 93, 232, 0.637), rgb(40,165,248));
+    background-image: linear-gradient(to bottom, rgb(207, 207, 207), rgba(255, 255, 255, 0.637), rgb(139, 139, 139));
 }
 
 li{
@@ -33,7 +33,7 @@ ul{
     padding: 0;
 }
 
-.container{
+/*.container{
     max-width: 840px;
     margin-left: auto;
     margin-right: auto;
@@ -41,51 +41,41 @@ ul{
     padding-right: 0.5rem;
     background-color: rgba(57, 176, 255, 0.194);
    
-}
+}*/
 
 .banner{
+    background-color: rgb(40, 255, 244);
     overflow: hidden;
-    height: 480px;
-    position: relative;
-    /*background-color: deepskyblue;*/
-    z-index: -1;
+    height: 100vh;
+    position: center;
+    background-size: cover;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(800px_COLOURBOX31341059-removebg-preview.png);
+    box-sizing: border-box;
 }
 
+.skill{
+    background-color: rgb(90, 208, 255);
+    overflow: hidden;
+    height: 60vh;
+}
 small{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     z-index: 1;
-    left: 16px;
-    bottom: 32px;
-    position:absolute;
-    font-size: 20px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 100px;
+    padding-left: 485px;
+    padding-top: 300px;
 }
 
 h1{
-    color: white;
-    background-color: black;
-    opacity: 70%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-    display: inline-block;
-    position: absolute;
-    bottom: 60px;
+    color: rgb(59, 5, 255);
+    /*background-color: black;
+    opacity: 70%;*/
+    text-align: center;
+    padding-top: 250px;
+    font-size: 150px;
 }
-
-.elips{
-    color: white;
-    background-color: black;
-    opacity: 70%;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 40px;
-    display: inline-block;
-    position: absolute;
-    bottom: 60px;
-}
-
 
 h2{
     text-align: center;
@@ -102,6 +92,11 @@ article {
 .identitas {
     color: tomato;
     font-size: 16px;
+    overflow: hidden;
+    position: center;
+    background-size: cover;
+    /*background-color: deepskyblue;*/
+    
 }
 
 
@@ -129,16 +124,22 @@ span {
     padding-left: 40px;
     padding-right: 60px;
     line-height: 16px;
-    text-align: justify;
+    text-align: center;
 }
 
 #about h2{
     padding-top: 40px;
 }
+#about h3{
+    padding-left: 280px;
+    color: rgb(0, 98, 211);
+    text-decoration: underline;
+}
 
 #skill p{
     padding-right: 40px;
     padding-left: 40px;
+    text-align: center;
 }
 
 
@@ -162,6 +163,8 @@ input[type=submit]:hover{
     padding-top: 40px;
     padding-bottom: 40px;
     font-weight: bold;
+    background-color: rgb(90, 208, 255);
+    
 }
 
 /*footer {
@@ -174,25 +177,31 @@ input[type=submit]:hover{
 }*/
 
 a{
-    color: orange;
+    color: rgb(0, 26, 255);
     font-weight: bold;
 }
 
 /*a:hover{
     background-image: linear-gradient(to bottom, rgb(134,252,0), rgb(40,165,248));
 }*/
-
 #skill h3{
     text-align: center;
-    color:darkviolet;
+    padding-left: 150px;
+    color: rgb(211, 0, 0);
+    text-decoration: underline;
+}
+#services h3{
+    text-align: center;
+    padding-left: 150px;
+    color:rgb(0, 144, 211);
     text-decoration: underline;
 }
 
-#services h3{
-    text-align: center;
+.contact{
+    overflow: hidden;
 }
  
-img {
+.photo {
     width: 250px;
     height: 250px;
     margin-top: 30px;
@@ -201,4 +210,23 @@ img {
     border: 2px solid white;
     display: block;
     margin-right: auto;
+    margin-left: auto;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 20%;
+    margin-right: auto;
+    margin-left: 140px;
+}
+
+#skill img{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    border-radius: 20%;
+    margin-right: auto;
+    margin-left: 140px;
 }
