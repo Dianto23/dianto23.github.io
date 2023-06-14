@@ -19,12 +19,12 @@ nav{
     position: fixed;
     top: 0%;
     width: 100%;
-    background-color: rgba(172, 172, 172, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(20px);
     padding: 5px 20px;
     left: 50%;
     transform: translate(-50%,0%);
-    border-radius: 20px
+    border-radius: 20px;
     z-index: 3;
 }
 
@@ -39,8 +39,7 @@ ul{
     margin-right: auto;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    background-color: rgba(57, 176, 255, 0.194);
-   
+    background-color: rgba(57, 176, 255, 0.194);  
 }*/
 
 .banner{
@@ -49,14 +48,13 @@ ul{
     height: 100vh;
     position: center;
     background-size: cover;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.123)10%, rgba(0,0,0,0.123)10%), url(800px_COLOURBOX31341059-removebg-preview.png);
     box-sizing: border-box;
 }
 
 .skill{
     background-color: rgb(90, 208, 255);
     overflow: hidden;
-    height: 60vh;
+    height: 100vh;
 }
 small{
     color: rgb(0, 0, 0);
@@ -90,13 +88,13 @@ article {
 }
 
 .identitas {
-    color: tomato;
+    /*color: tomato;*/
     font-size: 16px;
     overflow: hidden;
     position: center;
     background-size: cover;
+    height: 50vh;
     /*background-color: deepskyblue;*/
-    
 }
 
 
@@ -122,7 +120,7 @@ span {
 #about p{
     padding-right: 40px;
     padding-left: 40px;
-    padding-right: 60px;
+    margin-top: 1px;
     line-height: 16px;
     text-align: center;
 }
@@ -164,26 +162,26 @@ input[type=submit]:hover{
     padding-bottom: 40px;
     font-weight: bold;
     background-color: rgb(90, 208, 255);
-    
 }
 
-/*footer {
+footer {
     background-color: royalblue;
     color: azure;
     height: 120px;
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
-}*/
+}
 
 a{
-    color: rgb(0, 26, 255);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
-/*a:hover{
-    background-image: linear-gradient(to bottom, rgb(134,252,0), rgb(40,165,248));
-}*/
+a:hover{
+    background-color: #2b4a58;
+}
+
 #skill h3{
     text-align: center;
     padding-left: 150px;
@@ -192,11 +190,13 @@ a{
 }
 #services h3{
     text-align: center;
-    padding-left: 150px;
+    padding-left: 130px;
     color:rgb(0, 144, 211);
     text-decoration: underline;
 }
-
+.services{
+    height: 100vh;
+}
 .contact{
     overflow: hidden;
 }
@@ -214,19 +214,17 @@ a{
 }
 
 img {
-    width: 250px;
-    height: 250px;
-    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
     border-radius: 20%;
     margin-right: auto;
-    margin-left: 140px;
+    margin-left: 105px;
 }
 
 #skill img{
     width: 250px;
     height: 250px;
-    margin-top: 30px;
-    border-radius: 20%;
-    margin-right: auto;
+    margin-top: 100px;
     margin-left: 140px;
 }
